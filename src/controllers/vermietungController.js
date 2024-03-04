@@ -44,7 +44,7 @@ async function update(req, res) {
 async function remove(req, res) {
     let count = await service.remove(req.params.id);
     if (count > 0) {
-        res.status(200).json({ message: "Vermietung gelöscht." });
+        res.status(204).json({ message: "Vermietung gelöscht." });
     } else {
         throwNotFound();
     }
