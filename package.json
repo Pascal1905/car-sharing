@@ -5,11 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pascal Maseizik <Maseizik.Pascal.a22@student.dhbw-karlsruhe.de>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",

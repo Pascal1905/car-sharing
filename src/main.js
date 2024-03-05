@@ -28,5 +28,5 @@ controllers.forEach(controller => controller(app));
 app.use(handleError(logger));
 
 app.listen(config.port, config.host, () => {
-    logger.info(`Server listening at http://${config.host}:${config.port}`);
+    logger.info(`Server lauscht auf http://${config.host}:${config.port}`);
 });

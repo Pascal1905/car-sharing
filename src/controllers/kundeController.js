@@ -1,6 +1,5 @@
 import service from '../services/kundeService.js';
-import { throwNotFound } from '../utils.js';
-import { wrapAsync } from '../utils.js';
+import { throwNotFound,wrapAsync } from '../utils.js';
 
 const prefix = '/kunden';
 
